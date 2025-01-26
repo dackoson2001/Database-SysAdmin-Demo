@@ -1,0 +1,12 @@
+# Technical Decision Matrix
+
+| **Decision Criteria**   | **Option 1: Azure SQL Database**  | **Option 2: AWS RDS (SQL Server)**  | **Option 3: On-Premises SQL Server** |
+|-------------------------|-----------------------------------|-------------------------------------|--------------------------------------|
+| **Cost**                | Moderate                           | High                                | Low                                  |
+| **Scalability**         | High                               | High                                | Moderate                             |
+| **Performance**         | Excellent                          | Good                                | Excellent                            |
+| **Security**            | Excellent (built-in features)      | Excellent (built-in features)       | Good                                 |
+| **Ease of Management**  | Very Easy (Fully managed)          | Easy (Managed service)              | Difficult (Manual management)        |
+| **Disaster Recovery**   | Automated backups and failover     | Automated backups and failover      | Requires manual configuration       |
+| **Migration Complexity**| Medium (Requires migration tools) | Medium (Requires migration tools)   | Low (No migration required)         |
+| **Long-Term Support**   | High                               | High                                | Moderate                             |
